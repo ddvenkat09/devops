@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout code from Git repository (no credentials needed for public repository)
-                git url: 'https://github.com/ddvenkat09/jenkins-example-scripts-php.git'
+                git url: 'https://github.com/ddvenkat09/devops.git'
             }
         }
         stage('Update Nginx and Reload') {
